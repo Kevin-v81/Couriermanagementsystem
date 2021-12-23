@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>  
+  <link rel="stylesheet" href="adduseritem.css">  
+    <head>
+        <title>Add Item</title>
+    </head>
+    <script type="text/javascript">
+       function onsub()
+       {
+         window.location = ;
+       }
+    </script>
+
+    <body class="body">
+        <form  onsubmit="return fn1()" action="database.php" method="POST">
+          <p class="class">
+           <center>
+             <h1>
+               <label class="additems">Add items</label>
+              </h1>
+            </center>
+           <tr>
+               <th>
+                  <br>
+                     <ul>
+                       <label for="type_item" class="type_item"> Enter type of item</label>
+                       <input type="text" class="type" id="item" name="item" required>
+                     </ul>
+                </th> 
+           </tr>
+           <tr>
+            <th>
+               <br>
+                  <ul> 
+                    <label  for="item_weight" class="item_weight">Enter weight of item(in grams)</label>
+                    <input type="text"  class="item" id="weight" name="weight" required>
+                    
+                  </ul>
+             </th> 
+        </tr>
+       
+        <tr>
+            <th>
+               <br>
+                  <ul> 
+                    <label class="pickup">Enter pickup address</label>
+                    <select name="pickup" id="pick" class="pickup" >
+                    <option value="Bangalore" name="Bangalore">Bangalore</option>
+                    <option value="Mysore" name="Mysore">Mysore</option>
+                    <option value="Shivmoga" name="Shivmoga">Shivmoga</option>
+                    </select>
+                  </ul>
+             </th> 
+        </tr>
+    
+      
+        <tr>
+            <th>
+               <br>
+                  <ul> 
+                    <label for="drop" class="drop">Enter Drop Address</label>
+                    <select name="dropa" id="drop" class="drop">
+                    <option value="Bangalore" name="Bangalore">Bangalore</option>
+                    <option value="Mysore" name="Mysore" >Mysore</option>
+                    <option value="Shivmoga" name="Shivmoga" >Shivmoga</option>
+                    </select>
+                  </ul>
+             </th> 
+        </tr>
+      
+               <br>
+                  <ul> 
+                    <label for="phoneno" class="phoneno">Enter Phone no</label>
+                    <input type="text"  class="phone" id="phoneno" name="phoneno"  required>
+                  </ul>
+                  <br>
+                  <div class="btn">
+                  <button type="submit" name="submit" onclick="return onsub()" class="submit">submit</button>
+                  </div>
+          </p>
+ </form>
+</body> 
+</html>  

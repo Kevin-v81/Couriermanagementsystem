@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html> 
+    <link rel="stylesheet" href="userlogin.css">   
+    <head>
+        <meta charset="UTF-8">
+        <title>User Login </title>
+        <script type="text/javascript">
+            function fn1()
+        {
+            var Username = document.getElementById("uname");
+            var Password = document.getElementById("pwd");
+           if(Username.value.trim() ==""||Password.value.trim() =="")
+           {
+               alert("please provide Username and Password");
+               return false;
+           }
+           else
+           {
+               true;
+           }
+        }
+
+        function fn2()
+        {
+            window.location ="sunil/Welcom-user.html";
+        }
+        </script>
+    </head>
+    <body class="body">
+        <form action="connection.php" method= "POST" onsubmit="return fn1()">
+            <div class="ulp">     
+        <h1 class="ulf">User Login Form</h1>
+    </div> 
+    <br/>
+    <br/>
+    <br/>
+        <center>
+            <div class="usname">
+            <lable class="name"> username </lable>
+            <br/>
+            <input type="text" name="username" id="uname" >
+            </div>
+            <br/>
+            <br/>
+            <div class="pswd">
+            <lable class="pass"> Password </lable>
+            <br/>
+            <input type="password" name="password" id="pwd">
+            <br/>
+            <br>
+            <button class="button" onclick="return fn2()">submit</button></a>
+            <br/>
+            <br/>
+            <br/>
+        </center>
+    </form>
+    </body>
+    <footer class="create">
+        <h5>Created by Mani Bharathi.R and Kevin.V</h5>
+    </footer>
+</html>

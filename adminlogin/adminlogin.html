@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>    
+    <head>
+        <link rel="stylesheet" href="adminlogin.css">
+        <meta charset="UTF-8">
+        <title>Admin Login </title>
+        <script type="text/javascript">
+            function fn1()
+        {
+            var Username = document.getElementById("uname");
+            var Password = document.getElementById("pwd");
+           if(Username.value.trim() ==""||Password.value.trim() =="")
+           {
+               alert("please provide Username and Password");
+               return false;
+           }
+           else
+           {
+               true;
+           }
+        }
+        </script>
+    </head>
+    <body>
+        <form action="database.php" method= "POST" onsubmit="return fn1()">
+        <h1>
+            <center>
+                <label class="alf">Admin Login Form</label>
+            </center>    
+            </h1>
+    <br/>
+    <br/>
+    <br/>
+                <center class="login">
+                    <p> username </p>
+                    <input type="text" name="username" id="uname" >
+                    <p> Password </p> 
+                    <input type="password" name="password" id="pwd">
+                    <br>
+                    <br>
+                    <button type="submit" class="btn" value="Login" onclick="nextpage()">login</button>
+                </center>
+            </form>
+          
+
+    </form>
+    </body>
+</html>

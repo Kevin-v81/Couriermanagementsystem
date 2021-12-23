@@ -1,0 +1,157 @@
+body{
+    background-image: url(Classicnyt.jpg);
+}
+.wdp{
+    text-align:center;
+    font-style: italic;
+    color: lightblue;
+    background-color: rgba(255, 255, 255, 0.2);
+    font-size: 52px;
+}
+.view{
+    text-align:justify;
+    font-style: italic;
+    color: lightblue;
+    background-color: rgba(255, 255, 255, 0.2);
+    font-size: 36px;
+    box-shadow: rgba(0,0,0,0.5);
+    margin: blue;
+}
+.yourid{
+    text-align:justify;
+    font-style: italic;
+    color: lightblue;
+    background-color: rgba(0,0,0,0.2);
+    box-shadow: rgba(0,0,0,0.5);
+    font-size: 30px;
+    padding: 5px;
+    width: 50%;
+    height: auto;
+    background-size: 500px;
+}
+
+.change{
+    text-align:justify;
+    font-style: italic;
+    color: lightblue;
+    background-color: rgba(255, 255, 255, 0.2);
+    font-size: 36px;
+    box-shadow: rgba(0,0,0,0.5);
+    margin: blue;
+
+
+}
+
+.shipment{
+    text-align:justify;
+    font-style: italic;
+    color: lightblue;
+    background-color: rgba(0,0,0,0.2);
+    box-shadow: rgba(0,0,0,0.5);
+    font-size: 30px;
+    padding: 5px;
+    width: 50%;
+    height: auto;
+    background-size: 300px 100px;
+}
+
+.unpicked{
+     font-size: 20px;
+     font-style: italic;
+     color: lightblue;
+     background-color: rgba(0,0,0,0.2);
+     box-shadow: rgba(0,0,0,0.5);
+     font-size: 30px;
+     padding: 5px;
+     width: 100%;
+     height: auto
+}
+
+.deliverd{
+    font-size: 20px;
+    font-style: italic;
+    color: lightblue;
+    background-color: rgba(0,0,0,0.2);
+    box-shadow: rgba(0,0,0,0.5);
+    font-size: 30px;
+    padding: 5px;
+    width: 100%;
+    height: 50%
+
+}
+
+.transit{
+    font-size: 20px;
+     font-style: italic;
+     color: lightblue;
+     background-color: rgba(0,0,0,0.2);
+     box-shadow: rgba(0,0,0,0.5);
+     font-size: 30px;
+     padding: 5px;
+     width: 100%;
+     height: auto;
+}
+
+.select{
+    text-align:justify;
+    font-style: italic;
+    color:lightblue;
+    background-color: rgba(255, 255, 255, 0.2);
+    font-size: 36px;
+    box-shadow: rgba(0,0,0,0.5);
+    margin: blue;
+}
+
+.view_item{
+   padding-left: 50px ;
+}
+
+
+.change_status{
+    padding-left: 50px;
+} 
+
+.select_status{
+    padding-left: 50px; 
+}
+
+.submit{
+    background-color: rgba(250,250,250,0.2);
+    border:  yellow;
+    color:lightblue;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#shipment_id{
+    width: 10%;
+    height: 20px;
+}
+
+#Unpick{
+    width: 35px;
+    height:25px;
+    border-radius: 30%;
+}
+
+#Transit{
+    width: 35px;
+    height:25px;
+    border-radius: 30%;
+}
+
+#Delive{
+    width: 35px;
+    height:25px;
+    border-radius: 30%; 
+}
+
+#Customerid{
+    width: 10%;
+    height: 20px;
+}

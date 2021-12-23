@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>    
+    <head>
+        <meta charset="UTF-8">
+        <title>Sign Up </title>
+        <script type="text/javascript">
+            function fn1()
+        {
+            var Name            = document.getElementById("name");
+            var Username        = document.getElementById("uname");
+            var Email           = document.getElementById("email");
+            var Phonenumber     = document.getElementById("phno");
+            var Password        = document.getElementById("pwd");
+
+           if(Username.value.trim() ==""||Password.value.trim() ==""||Name.value.trim() ==""||Email.value.trim() == ""||Phonenumber.value.trim() =="")
+           {
+               alert("please provide Username and Password");
+               return false;
+           }
+           else if(Name.value.trim() ==""||Email.value.trim() == ""||Phonenumber.value.trim() =="")
+           {
+               alert("please provide Name and Email");
+               return false;
+           }
+           else if(Phonenumber.value.trim() =="")
+           {
+               alert("please provide Phonename");
+               return false;
+           }
+           else
+           {
+               true;
+           }
+        }
+        </script>
+    </head>
+    <body>
+        <center><h3>Signup</h3></center>
+        <form onsubmit="return fn1()">
+    
+        <center>
+            <br>
+            <input type="text" name="Name" id="name" placeholder="Name">
+            <br>
+            <br>
+            <input type="text" name="Username" id="uname" placeholder="Username">
+            <br>
+            <br>
+            <input type="email" name="Email" id="email" placeholder="Email">
+            <br>
+            <br>
+            <input type="text" name="Phonenumber" id="phno" placeholder="Phonenumber">
+            <br>
+            <br>
+            <input type="password" name="Password" id="pwd"placeholder="Password">
+            <br>
+            <br>
+            <button type="submit" name="submit" value="submit">Signup</button>
+        </center>
+    </form>
+    </body>
+</html>

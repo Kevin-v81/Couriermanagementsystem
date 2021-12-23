@@ -1,0 +1,42 @@
+.body{
+    background-image: url(Classicnyt.jpg);
+}
+
+.check{
+    text-align:center;
+    font-style: italic;
+    color: lightblue;
+    background-color: rgba(255, 255, 255, 0.2);
+    font-size: 52px;
+}
+
+.id{
+    text-align:justify;
+    font-style: italic;
+    color: lightblue;
+    background-color: rgba(0,0,0,0.2);
+    box-shadow: rgba(0,0,0,0.5);
+    font-size: 30px;
+    padding: 5px;
+    width: 50%;
+    height: auto;
+    background-size: 500px;
+}
+
+.submit{
+    background-color: rgba(250,250,250,0.2);
+    border:  yellow;
+    color:lightblue;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#itemid{
+    width: 10%;
+    height: 20px;
+}

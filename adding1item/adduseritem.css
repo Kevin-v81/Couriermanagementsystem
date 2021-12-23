@@ -1,0 +1,103 @@
+.body{
+    background-image: url(Classicnyt.jpg);
+}
+
+.additems{
+    text-align:center;
+    font-style: italic;
+    color: lightblue;
+    background-color: rgba(255, 255, 255, 0.2);
+    font-size: 52px;
+}
+
+.type_item{
+    text-align:left;
+    font-style: italic;
+    color: lightblue;
+    box-shadow: rgba(0,0,0,0.5);
+    font-size: 25px;
+    padding: 5px;
+    width: 250px;
+    height: auto;
+    background-color: rgba(250,250,250,0.2);
+    background-size: 500px;
+    display: inline-block ;
+    clear:left;
+}
+
+.item_weight{
+    text-align:left;
+    font-style: italic;
+    color: lightblue;
+    box-shadow: rgba(0,0,0,0.5);
+    font-size: 25px;
+    padding: 5px;
+    width: 250px;
+    height: auto;
+    background-color: rgba(250,250,250,0.2);
+    background-size: 500px;
+    display: inline-block ;
+    clear:left;
+}
+
+.pickup{
+    text-align:left;
+    font-style: italic;
+    color: lightblue;
+    box-shadow: rgba(0,0,0,0.5);
+    font-size: 25px;
+    padding: 5px;
+    width: 250px;
+    height: auto;
+    background-color: rgba(250,250,250,0.2);
+    background-size: 500px;
+    display: inline-block ;
+    clear:left;
+}
+
+.drop{
+    text-align:left;
+    font-style: italic;
+    color: lightblue;
+    box-shadow: rgba(0,0,0,0.5);
+    font-size: 25px;
+    padding: 5px;
+    width: 250px;
+    height: auto;
+    background-color: rgba(250,250,250,0.2);
+    background-size: 500px;
+    display: inline-block ;
+    clear:left;
+}
+
+.phoneno{
+    text-align:left;
+    font-style: italic;
+    color: lightblue;
+    box-shadow: rgba(0,0,0,0.5);
+    font-size: 25px;
+    padding: 5px;
+    width: 250px;
+    height: auto;
+    background-color: rgba(250,250,250,0.2);
+    background-size: 500px;
+    display: inline-block ;
+    clear:left;
+}
+
+.submit{
+    background-color: rgba(250,250,250,0.2);
+    border:  yellow;
+    color:lightblue;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.btn{
+    padding-left: 50px;
+}

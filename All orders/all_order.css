@@ -1,0 +1,23 @@
+.body{
+    background-image: url(Classicnyt.jpg);
+}
+
+.tab{
+    border: 3px white;
+    width: 1580px;
+    height: ;
+    color: white;
+    background-color: rgba(255,255,255,0.2);
+}
+
+.all{
+    text-align:center;
+    font-style: italic;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.2);
+    font-size: 52px;
+}
+
+
+
+

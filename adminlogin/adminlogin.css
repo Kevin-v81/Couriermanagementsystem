@@ -1,0 +1,100 @@
+body{
+    background-image:url('Classicnyt.jpg') ;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    
+}
+
+
+
+
+.alf{
+    font-style: oblique;
+    font-weight: 500; 
+    font-size: 52px;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.2);
+    box-shadow: rgba(0,0,0,.5);
+    text-align: center;
+    vertical-align: center;
+   
+
+}
+.alf{
+    background-color:rgba(255,255,255,0.2);
+    color: lightblue;
+    text-align: center ;
+}
+
+.login{
+    width: 320px;
+    height: 420px;
+    background: rgba(255,255,255,0.2);
+    color: aliceblue;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.login p{
+    font-size: ;
+    color: lightblue;
+    text-transform: capitalize;
+    margin:0;
+    padding:0px;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+.login input{
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+.login input[type="text"],input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: ;
+    font-size: 16px;
+}
+.login input:focus{
+    background-color:none ;
+    border-radius: 10px;
+}
+
+
+ .btn {
+    border: lightblue;
+    outline:none;
+    height: 40px;
+    background:rgba(255,255,255,0.2); 
+    color: ;
+    font: 18px;
+    border-radius: 20px;
+    size: 100px;
+    font-weight: 500;
+    font-size: 16px;
+  }
+
+  .btn:hover {
+      cursor:pointer;
+      background:lightblue ;
+      
+      font-size: 20;
+  }
+
+  .btn:active{
+   box-shadow: rgba(0,0,0,.5); 
+   transform: translateY(4px);
+   }
+
+  
+   

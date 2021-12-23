@@ -1,0 +1,56 @@
+.body{
+    background-image:url(Classicnyt.jpg);
+}
+
+.welcome{
+    font-style: oblique;
+    font-weight: 500; 
+    font-size: 200%;
+    text-transform: capitalize;
+    color: white;
+    box-shadow: rgba(0,0,0,.5);
+    text-align: center;
+    vertical-align: center;
+    background-color: rgba(250,250,250,0.5);
+}
+
+.add{
+  
+    color: white;
+    background-color: rgba(250,250,250,0.5);
+    box-shadow: rgba(255, 255, 255, 0.2);
+    font-size: 50px;
+    padding: 150px 50px;
+    border: 0.5;
+    margin-left:auto;
+    margin-right: auto;
+    width: 5em;
+
+}
+
+.item{
+    color: white;
+    background-color: rgba(250,250,250,0.5);
+    box-shadow: rgba(255, 255, 255, 0.2);
+    font-size: 50px;
+    text-align: center;
+    padding: 150px 50px;
+    border: 0.5;
+    margin-left:auto;
+    margin-right: auto;
+    width: 8em;
+}
+
+.Check{
+color: white; 
+ text-align: center;
+ background-color: rgba(250,250,250,0.5);
+ box-shadow: rgba(255, 255, 255, 0.2);
+ font-size: 50px;
+ padding: 150px 50px;
+ border: 0.5;
+ margin-left:auto;
+ margin-right: auto;
+ width: 5em;
+ text-align: center;
+}
